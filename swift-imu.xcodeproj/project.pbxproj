@@ -12,6 +12,8 @@
 		D47557F12283573800EC3B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47557EF2283573800EC3B86 /* Main.storyboard */; };
 		D47557F32283573D00EC3B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47557F22283573D00EC3B86 /* Assets.xcassets */; };
 		D47557F62283573D00EC3B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47557F42283573D00EC3B86 /* LaunchScreen.storyboard */; };
+		DA9597C17E9E32DCD7DF7AD1 /* ViewController+Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA959FB3734D9ACB2FF17259 /* ViewController+Bluetooth.swift */; };
+		DA959BE63EEFC07DC9DEDC0C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA959D16E6E645A2B4DE238F /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D47557F22283573D00EC3B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47557F52283573D00EC3B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D47557F72283573D00EC3B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA959D16E6E645A2B4DE238F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DA959FB3734D9ACB2FF17259 /* ViewController+Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Bluetooth.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				D47557F22283573D00EC3B86 /* Assets.xcassets */,
 				D47557F42283573D00EC3B86 /* LaunchScreen.storyboard */,
 				D47557F72283573D00EC3B86 /* Info.plist */,
+				DA959FB3734D9ACB2FF17259 /* ViewController+Bluetooth.swift */,
+				DA95907C840D70E22D32430C /* Utils */,
 			);
 			path = "swift-imu";
+			sourceTree = "<group>";
+		};
+		DA95907C840D70E22D32430C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA959D16E6E645A2B4DE238F /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			files = (
 				D47557EE2283573800EC3B86 /* ViewController.swift in Sources */,
 				D47557EC2283573800EC3B86 /* AppDelegate.swift in Sources */,
+				DA9597C17E9E32DCD7DF7AD1 /* ViewController+Bluetooth.swift in Sources */,
+				DA959BE63EEFC07DC9DEDC0C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
